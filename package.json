@@ -1,0 +1,49 @@
+{
+  "name": "react-weather",
+  "version": "1.0.0",
+  "description": "☀🌤⛅🌥 A simple application to search the weather in your city 🌦☁🌧⛈",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --inline --hot",
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoneas02/react-weather.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "weather"
+  ],
+  "author": "Simone Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simoneas02/react-weather/issues"
+  },
+  "homepage": "https://github.com/simoneas02/react-weather#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "4.3.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4"
+  }
+}
