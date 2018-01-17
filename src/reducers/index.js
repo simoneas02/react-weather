@@ -4,7 +4,7 @@ import WeatherReduce from './WeatherReduce'
 
 
 const rootReducer = combineReducers({
-  whather : WeatherReduce
+  weather : WeatherReduce
 });
 
 export default rootReducer;
